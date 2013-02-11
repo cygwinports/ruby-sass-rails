@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-sass-rails"
+VERSION=3.2.6
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby on Rails CSS adapter"
+DESCRIPTION="Sass adapter for the Rails asset pipeline."
