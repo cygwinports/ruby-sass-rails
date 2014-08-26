@@ -1,8 +1,14 @@
 inherit rubygem
 
 NAME="ruby-sass-rails"
-VERSION=3.2.6
+VERSION=4.0.3
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby on Rails CSS adapter"
 DESCRIPTION="Sass adapter for the Rails asset pipeline."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_sass_rails_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_sass_rails_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
