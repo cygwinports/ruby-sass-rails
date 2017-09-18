@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-sass-rails"
-VERSION=5.0.4
+VERSION=5.0.6
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby on Rails CSS adapter"
